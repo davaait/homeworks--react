@@ -1,14 +1,14 @@
 import React from 'react'
-import Affair from './Affair'
-import {AffairType} from './HW2'
+import {Affair} from './Affair'
+import {AffairType, FilterType} from './HW2'
 
-type AffairsPropsType = { // need to fix any
-    data: any
-    setFilter: any
-    deleteAffairCallback: any
+export type AffairsPropsType = {
+    data: Array<AffairType>
+    setFilter: (filter: FilterType) => void
+    deleteAffairCallback: (id: number) => void
 }
 
-function Affairs(props: AffairsPropsType) {
+export function Affairs(props: AffairsPropsType) {
     const mappedAffairs = props.data.map((a: AffairType) => (
         <Affair // should work
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
@@ -17,10 +17,18 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {} // need to fix
-    const setHigh = () => {}
-    const setMiddle = () => {}
-    const setLow = () => {}
+    const setAll = () => {
+        props.setFilter("all")
+    } // need to fix
+    const setHigh = () => {
+        props.setFilter("high")
+    }
+    const setMiddle = () => {
+        props.setFilter("middle")
+    }
+    const setLow = () => {
+        props.setFilter("low")
+    }
 
     return (
         <div>
@@ -34,5 +42,3 @@ function Affairs(props: AffairsPropsType) {
         </div>
     )
 }
-
-export default Affairs

@@ -15,15 +15,9 @@ export function Message(props: MessageType) {
                 <img src={props.avatar} alt="ava"/>
             </div>
             <div className={s.messageWrapper}>
-                <div className={s.name}>
-                    {props.name}
-                </div>
-                <div>
-                    {props.message}
-                </div>
-                <div className={s.time}>
-                    {props.time}
-                </div>
+                <div className={s.name}>{props.name}</div>
+                <div>{props.message}</div>
+                <div className={s.time}>{props.time}</div>
             </div>
         </div>
     )
