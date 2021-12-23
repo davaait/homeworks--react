@@ -1,7 +1,26 @@
-.someClass {
+.showError {
+    position: relative;
+    display: inline-block;
+    color: red;
+    margin: 10px;
+    font-size: 15px;
+}
 
+.button {
+    position: relative;
+    color: white;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #0d8811;
 }
 
 .error {
-    border: 1px solid red;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.span {
+    margin-left: 10px;
 }

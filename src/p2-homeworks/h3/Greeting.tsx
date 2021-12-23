@@ -2,11 +2,11 @@ import React from 'react'
 import s from './Greeting.module.css'
 
 type GreetingPropsType = {
-    name: any // need to fix any
+    name: string // need to fix any
     setNameCallback: any // need to fix any
     addUser: any // need to fix any
-    error: any // need to fix any
-    totalUsers: any // need to fix any
+    error: string // need to fix any
+    totalUsers: number // need to fix any
 }
 
 // презентационная компонента (для верстальщика)
@@ -17,10 +17,14 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
-            <span>{error}</span>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <input value={name} onChange={setNameCallback} onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                    addUser();
+                }
+            }} className={inputClass}/>
+            <button onClick={addUser} className={s.button} disabled={!name}>add</button>
+            <span className={s.span}>{totalUsers}</span>
+            <div><span className={s.showError}>{error}</span></div>
         </div>
     )
 }
