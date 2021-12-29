@@ -1,0 +1,75 @@
+.wrapper {
+    margin: 40px 5px;
+    padding: 0;
+    font-size: 12pt;
+}
+
+.wrapperNav {
+    display: block;
+    position: fixed;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: #eee;
+    height: 100%;
+    top: 0;
+    left: -200px;
+    transition: left .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.wrapperNavTicker {
+    display: none;
+}
+
+.label {
+    color: rgba(0, 29, 221, 0.7);
+    background-color: #666;
+    padding: 5px;
+    position: fixed;
+    top: 25px;
+    left: 10px;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 3;
+    width: 25px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.label span {
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+}
+
+.label span.first {
+    margin-top: 0;
+}
+
+.wrapperNavTicker:checked ~ .label {
+    left: 160px;
+}
+.wrapperNavTicker:checked ~ .wrapperNav {
+    left: 0;
+}
+.wrapperNavTicker:checked ~ .label span.first {
+    -webkit-transform: rotate(45deg);
+    top: 10px;
+}
+.wrapperNavTicker:checked ~ .label span.second {
+    opacity: 0;
+}
+
+.wrapperNavTicker:checked ~ .label span.third {
+    -webkit-transform: rotate(-45deg);
+    top: -10px;
+}
+
