@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39aba954-8c5b-4251-95b8-7d459d300186" name="Changes" comment="&quot;homework#5 done&quot;" />
+    <list default="true" id="39aba954-8c5b-4251-95b8-7d459d300186" name="Changes" comment="&quot;homework#5 done&quot;">
+      <change afterPath="$PROJECT_DIR$/ssss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../it_kamasutra/react_kabzda_kak_prosto" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -144,7 +149,7 @@
       <workItem from="1640612020455" duration="2224000" />
       <workItem from="1640682481716" duration="1447000" />
       <workItem from="1640694861877" duration="14365000" />
-      <workItem from="1640759302124" duration="2934000" />
+      <workItem from="1640759302124" duration="7670000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;added message box&quot;">
       <created>1639133870127</created>
@@ -181,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640769339770</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;homework#5 done&quot;">
+      <created>1640772830472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640772830472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

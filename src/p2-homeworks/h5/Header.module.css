@@ -4,6 +4,16 @@
     font-size: 12pt;
 }
 
+.item {
+    color: rgba(3, 24, 194, 0.88);
+    text-decoration: none;
+}
+
+.activeItem {
+    color: gold;
+    text-decoration: none;
+}
+
 .wrapperNav {
     display: block;
     position: fixed;

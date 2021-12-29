@@ -14,13 +14,13 @@ function Header() {
             // add NavLinks
             <div className={s.wrapperNav}>
                 <div>
-                    <NavLink to="/pre-junior">Pre-Junior</NavLink>
+                    <NavLink className={nav => nav.isActive ? s.activeItem : s.item} to="/pre-junior">Pre-Junior</NavLink>
                 </div>
                 <div>
-                    <NavLink to="/junior">Junior</NavLink>
+                    <NavLink className={nav => nav.isActive ? s.activeItem : s.item} to="/junior">Junior</NavLink>
                 </div>
                 <div>
-                    <NavLink to="/junior-plus">JuniorPlus</NavLink>
+                    <NavLink className={nav => nav.isActive ? s.activeItem : s.item} to="/junior-plus">JuniorPlus</NavLink>
                 </div>
             </div>
         </div>
