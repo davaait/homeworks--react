@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39aba954-8c5b-4251-95b8-7d459d300186" name="Changes" comment="&quot;homework#5 done&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="39aba954-8c5b-4251-95b8-7d459d300186" name="Changes" comment="&quot;homework#5 done&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +144,7 @@
       <workItem from="1640612020455" duration="2224000" />
       <workItem from="1640682481716" duration="1447000" />
       <workItem from="1640694861877" duration="14365000" />
-      <workItem from="1640759302124" duration="2045000" />
+      <workItem from="1640759302124" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;added message box&quot;">
       <created>1639133870127</created>
