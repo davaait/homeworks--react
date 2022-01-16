@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39aba954-8c5b-4251-95b8-7d459d300186" name="Changes" comment="&quot;homework#5 done&quot;">
-      <change afterPath="$PROJECT_DIR$/ssss" afterDir="false" />
+    <list default="true" id="39aba954-8c5b-4251-95b8-7d459d300186" name="Changes" comment="&quot;added active class for NavLink&quot;">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -48,17 +56,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../it_kamasutra/react_kabzda_kak_prosto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h7" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\it-incubator\homeworks\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h5" />
-      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h5\pages" />
+      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h7" />
+      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h7\common\c6-SuperRadio" />
+      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h7\common\c5-SuperSelect" />
+      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h6\common\c4-SuperEditableSpan" />
+      <recent name="D:\it-incubator\homeworks\src\p2-homeworks\h6" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.native.js">
@@ -149,7 +160,11 @@
       <workItem from="1640612020455" duration="2224000" />
       <workItem from="1640682481716" duration="1447000" />
       <workItem from="1640694861877" duration="14365000" />
-      <workItem from="1640759302124" duration="7670000" />
+      <workItem from="1640759302124" duration="8921000" />
+      <workItem from="1640796480440" duration="319000" />
+      <workItem from="1640945479456" duration="170000" />
+      <workItem from="1642248959837" duration="12012000" />
+      <workItem from="1642317538179" duration="20781000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;added message box&quot;">
       <created>1639133870127</created>
@@ -193,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640772830472</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;added active class for NavLink&quot;">
+      <created>1640778136974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640778136974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +237,7 @@
     <MESSAGE value="&quot;homework#3 done&quot;" />
     <MESSAGE value="&quot;homework#4 done&quot;" />
     <MESSAGE value="&quot;homework#5 done&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;homework#5 done&quot;" />
+    <MESSAGE value="&quot;added active class for NavLink&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added active class for NavLink&quot;" />
   </component>
 </project>
